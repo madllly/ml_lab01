@@ -9,7 +9,6 @@ logo = """
 ██████  ███████ ███████ ██      ███████ ███████ ██   ████ ███████ ███████ ██ ██   ██ ██ 
 """
 print(logo)
-print("Validation of template values...")
 
 package_name = '{{ cookiecutter.python_package_name }}'
 valid_python_name = r'^[_a-zA-Z][_a-zA-Z0-9]+$'
